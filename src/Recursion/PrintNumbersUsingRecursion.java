@@ -22,14 +22,14 @@ public class PrintNumbersUsingRecursion {
     }
 
 
-    //print n to 1
-    public static void printFuncReverseOrder(int n){
-        if(n==0){
-            return ;
+        //print n to 1
+        public static void printFuncReverseOrder(int n){
+            if(n==0){
+                return ;
+            }
+            System.out.println(n);
+            printFuncReverseOrder(n-1);
         }
-        System.out.println(n);
-        printFuncReverseOrder(n-1);
-    }
 
     public static void main(String []args){
         printFunc(5);
