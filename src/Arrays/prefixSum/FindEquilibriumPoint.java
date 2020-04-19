@@ -9,7 +9,7 @@ public class FindEquilibriumPoint {
         }
         int l_sum = 0;
         for(int i=0;i<arr.length;i++){
-            if(l_sum == sum -arr[i]){
+            if(l_sum == sum - arr[i]){
                 System.out.println("equilibrium point reached at position "+(i+1));
             }
             l_sum += arr[i];

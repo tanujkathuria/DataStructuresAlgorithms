@@ -2,7 +2,7 @@ package Arrays.prefixSum;
 
 public class FindMaxOccuredElementNRanges {
 
-    static int MAX = 1000000;
+        static int MAX = 1000000;
 
     public static int findMaxOccuringElement(int[]l , int[]r, int n){
 
