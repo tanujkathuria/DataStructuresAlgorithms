@@ -60,8 +60,6 @@ public class FindElementInSortedRotatedArray {
             }
             return findPivot(arr,mid+1,high);
 
-
-
     }
     public static void main(String[] args) {
         int arr1[] = {5, 6, 7, 8, 9, 10, 1, 2, 3};
